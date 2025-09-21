@@ -1,0 +1,527 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local BuyGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local CactusButton = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local UIListLayout = Instance.new("UIListLayout")
+local StrawberryButton = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local PumpkinButton = Instance.new("TextButton")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local SunflowerButton = Instance.new("TextButton")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local DragonFruitButton = Instance.new("TextButton")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local EggplantButton = Instance.new("TextButton")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local WatermelontButton = Instance.new("TextButton")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local StrawberryButton_2 = Instance.new("TextButton")
+local ImageLabel_8 = Instance.new("ImageLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local EggplantButton_2 = Instance.new("TextButton")
+local ImageLabel_9 = Instance.new("ImageLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local PumpkinButton_2 = Instance.new("TextButton")
+local ImageLabel_10 = Instance.new("ImageLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local SunflowerButton_2 = Instance.new("TextButton")
+local ImageLabel_11 = Instance.new("ImageLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UICorner = Instance.new("UICorner")
+local Frame1 = Instance.new("Frame")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local ImageLabel_12 = Instance.new("ImageLabel")
+
+--Properties:
+
+BuyGui.Name = "BuyGui"
+BuyGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+BuyGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = BuyGui
+Frame.BackgroundColor3 = Color3.fromRGB(211, 211, 211)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.319378346, 0, 0.209337354, 0)
+Frame.Size = UDim2.new(0, 660, 0, 429)
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(157, 157, 157)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.0136363637, 0, 0.146853149, 0)
+ScrollingFrame.Size = UDim2.new(0, 476, 0, 354)
+ScrollingFrame.ScrollBarThickness = 3
+
+CactusButton.Name = "CactusButton"
+CactusButton.Parent = ScrollingFrame
+CactusButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CactusButton.BackgroundTransparency = 0.300
+CactusButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CactusButton.BorderSizePixel = 0
+CactusButton.Size = UDim2.new(0, 476, 0, 108)
+CactusButton.Font = Enum.Font.SourceSans
+CactusButton.Text = ""
+CactusButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CactusButton.TextSize = 14.000
+
+ImageLabel.Parent = CactusButton
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0411648788, 0, 0.0701288283, 0)
+ImageLabel.Size = UDim2.new(0, 92, 0, 91)
+ImageLabel.Image = "rbxassetid://100140310380921"
+
+TextLabel.Parent = CactusButton
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.315627784, 0, 0.161680862, 0)
+TextLabel.Size = UDim2.new(0, 175, 0, 38)
+TextLabel.Font = Enum.Font.Oswald
+TextLabel.Text = "Cactus"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 25.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+StrawberryButton.Name = "StrawberryButton"
+StrawberryButton.Parent = ScrollingFrame
+StrawberryButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StrawberryButton.BackgroundTransparency = 0.300
+StrawberryButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+StrawberryButton.BorderSizePixel = 0
+StrawberryButton.Size = UDim2.new(0, 476, 0, 108)
+StrawberryButton.Font = Enum.Font.SourceSans
+StrawberryButton.Text = ""
+StrawberryButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+StrawberryButton.TextSize = 14.000
+
+ImageLabel_2.Parent = StrawberryButton
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.0411648788, 0, 0.0701288283, 0)
+ImageLabel_2.Size = UDim2.new(0, 92, 0, 91)
+ImageLabel_2.Image = "rbxassetid://139512836058911"
+
+TextLabel_2.Parent = StrawberryButton
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.315627784, 0, 0.226495817, 0)
+TextLabel_2.Size = UDim2.new(0, 175, 0, 38)
+TextLabel_2.Font = Enum.Font.Oswald
+TextLabel_2.Text = "Strawberry"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 25.000
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+PumpkinButton.Name = "PumpkinButton"
+PumpkinButton.Parent = ScrollingFrame
+PumpkinButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PumpkinButton.BackgroundTransparency = 0.300
+PumpkinButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PumpkinButton.BorderSizePixel = 0
+PumpkinButton.Size = UDim2.new(0, 476, 0, 108)
+PumpkinButton.Font = Enum.Font.SourceSans
+PumpkinButton.Text = ""
+PumpkinButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+PumpkinButton.TextSize = 14.000
+
+ImageLabel_3.Parent = PumpkinButton
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.0411648788, 0, 0.0701288283, 0)
+ImageLabel_3.Size = UDim2.new(0, 92, 0, 91)
+ImageLabel_3.Image = "rbxassetid://115533676222056"
+
+TextLabel_3.Parent = PumpkinButton
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.315627784, 0, 0.161680862, 0)
+TextLabel_3.Size = UDim2.new(0, 175, 0, 38)
+TextLabel_3.Font = Enum.Font.Oswald
+TextLabel_3.Text = "Pumpkin"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 25.000
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+SunflowerButton.Name = "SunflowerButton"
+SunflowerButton.Parent = ScrollingFrame
+SunflowerButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SunflowerButton.BackgroundTransparency = 0.300
+SunflowerButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SunflowerButton.BorderSizePixel = 0
+SunflowerButton.Size = UDim2.new(0, 476, 0, 108)
+SunflowerButton.Font = Enum.Font.SourceSans
+SunflowerButton.Text = ""
+SunflowerButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+SunflowerButton.TextSize = 14.000
+
+ImageLabel_4.Parent = SunflowerButton
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.0411648788, 0, 0.0701288283, 0)
+ImageLabel_4.Size = UDim2.new(0, 92, 0, 91)
+ImageLabel_4.Image = "rbxassetid://118374484194376"
+
+TextLabel_4.Parent = SunflowerButton
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.315627784, 0, 0.161680862, 0)
+TextLabel_4.Size = UDim2.new(0, 175, 0, 38)
+TextLabel_4.Font = Enum.Font.Oswald
+TextLabel_4.Text = "Sunflower"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 25.000
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+DragonFruitButton.Name = "Dragon FruitButton"
+DragonFruitButton.Parent = ScrollingFrame
+DragonFruitButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DragonFruitButton.BackgroundTransparency = 0.300
+DragonFruitButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DragonFruitButton.BorderSizePixel = 0
+DragonFruitButton.Size = UDim2.new(0, 476, 0, 108)
+DragonFruitButton.Font = Enum.Font.SourceSans
+DragonFruitButton.Text = ""
+DragonFruitButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+DragonFruitButton.TextSize = 14.000
+
+ImageLabel_5.Parent = DragonFruitButton
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.0411648788, 0, 0.0701288283, 0)
+ImageLabel_5.Size = UDim2.new(0, 92, 0, 91)
+ImageLabel_5.Image = "rbxassetid://108023697672325"
+
+TextLabel_5.Parent = DragonFruitButton
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.315627784, 0, 0.226495817, 0)
+TextLabel_5.Size = UDim2.new(0, 175, 0, 38)
+TextLabel_5.Font = Enum.Font.Oswald
+TextLabel_5.Text = "Dragon Fruit"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 25.000
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+EggplantButton.Name = "EggplantButton"
+EggplantButton.Parent = ScrollingFrame
+EggplantButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EggplantButton.BackgroundTransparency = 0.300
+EggplantButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EggplantButton.BorderSizePixel = 0
+EggplantButton.Size = UDim2.new(0, 476, 0, 108)
+EggplantButton.Font = Enum.Font.SourceSans
+EggplantButton.Text = ""
+EggplantButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+EggplantButton.TextSize = 14.000
+
+ImageLabel_6.Parent = EggplantButton
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_6.BorderSizePixel = 0
+ImageLabel_6.Position = UDim2.new(0.0411648788, 0, 0.0701288283, 0)
+ImageLabel_6.Size = UDim2.new(0, 92, 0, 91)
+ImageLabel_6.Image = "rbxassetid://72663029438169"
+
+TextLabel_6.Parent = EggplantButton
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.315627784, 0, 0.161680862, 0)
+TextLabel_6.Size = UDim2.new(0, 175, 0, 38)
+TextLabel_6.Font = Enum.Font.Oswald
+TextLabel_6.Text = "Eggplant"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 25.000
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+WatermelontButton.Name = "WatermelontButton"
+WatermelontButton.Parent = ScrollingFrame
+WatermelontButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WatermelontButton.BackgroundTransparency = 0.300
+WatermelontButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WatermelontButton.BorderSizePixel = 0
+WatermelontButton.Size = UDim2.new(0, 476, 0, 108)
+WatermelontButton.Font = Enum.Font.SourceSans
+WatermelontButton.Text = ""
+WatermelontButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+WatermelontButton.TextSize = 14.000
+
+ImageLabel_7.Parent = WatermelontButton
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.BackgroundTransparency = 1.000
+ImageLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_7.BorderSizePixel = 0
+ImageLabel_7.Position = UDim2.new(0.0411648788, 0, 0.0701288283, 0)
+ImageLabel_7.Size = UDim2.new(0, 92, 0, 91)
+ImageLabel_7.Image = "rbxassetid://136973874489557"
+
+TextLabel_7.Parent = WatermelontButton
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.315627784, 0, 0.226495817, 0)
+TextLabel_7.Size = UDim2.new(0, 175, 0, 38)
+TextLabel_7.Font = Enum.Font.Oswald
+TextLabel_7.Text = "Watermelon"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 25.000
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+StrawberryButton_2.Name = "StrawberryButton"
+StrawberryButton_2.Parent = ScrollingFrame
+StrawberryButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StrawberryButton_2.BackgroundTransparency = 0.300
+StrawberryButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+StrawberryButton_2.BorderSizePixel = 0
+StrawberryButton_2.Size = UDim2.new(0, 476, 0, 108)
+StrawberryButton_2.Font = Enum.Font.SourceSans
+StrawberryButton_2.Text = ""
+StrawberryButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+StrawberryButton_2.TextSize = 14.000
+
+ImageLabel_8.Parent = StrawberryButton_2
+ImageLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_8.BackgroundTransparency = 1.000
+ImageLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_8.BorderSizePixel = 0
+ImageLabel_8.Position = UDim2.new(0.0411648788, 0, 0.0701288283, 0)
+ImageLabel_8.Size = UDim2.new(0, 92, 0, 91)
+ImageLabel_8.Image = "rbxassetid://95550348722826"
+
+TextLabel_8.Parent = StrawberryButton_2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.315627784, 0, 0.226495817, 0)
+TextLabel_8.Size = UDim2.new(0, 175, 0, 38)
+TextLabel_8.Font = Enum.Font.Oswald
+TextLabel_8.Text = "Cocotank"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 25.000
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+EggplantButton_2.Name = "EggplantButton"
+EggplantButton_2.Parent = ScrollingFrame
+EggplantButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EggplantButton_2.BackgroundTransparency = 0.300
+EggplantButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EggplantButton_2.BorderSizePixel = 0
+EggplantButton_2.Size = UDim2.new(0, 476, 0, 108)
+EggplantButton_2.Font = Enum.Font.SourceSans
+EggplantButton_2.Text = ""
+EggplantButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+EggplantButton_2.TextSize = 14.000
+
+ImageLabel_9.Parent = EggplantButton_2
+ImageLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_9.BackgroundTransparency = 1.000
+ImageLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_9.BorderSizePixel = 0
+ImageLabel_9.Position = UDim2.new(0.0411648788, 0, 0.0701288283, 0)
+ImageLabel_9.Size = UDim2.new(0, 92, 0, 91)
+ImageLabel_9.Image = "rbxassetid://126421099784295"
+
+TextLabel_9.Parent = EggplantButton_2
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.315627784, 0, 0.161680862, 0)
+TextLabel_9.Size = UDim2.new(0, 175, 0, 38)
+TextLabel_9.Font = Enum.Font.Oswald
+TextLabel_9.Text = "Carnivorous Plant"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 25.000
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+PumpkinButton_2.Name = "PumpkinButton"
+PumpkinButton_2.Parent = ScrollingFrame
+PumpkinButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PumpkinButton_2.BackgroundTransparency = 0.300
+PumpkinButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PumpkinButton_2.BorderSizePixel = 0
+PumpkinButton_2.Size = UDim2.new(0, 476, 0, 108)
+PumpkinButton_2.Font = Enum.Font.SourceSans
+PumpkinButton_2.Text = ""
+PumpkinButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+PumpkinButton_2.TextSize = 14.000
+
+ImageLabel_10.Parent = PumpkinButton_2
+ImageLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_10.BackgroundTransparency = 1.000
+ImageLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_10.BorderSizePixel = 0
+ImageLabel_10.Position = UDim2.new(0.0411648788, 0, 0.0701288283, 0)
+ImageLabel_10.Size = UDim2.new(0, 92, 0, 91)
+ImageLabel_10.Image = "rbxassetid://78142947638221"
+
+TextLabel_10.Parent = PumpkinButton_2
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.315627784, 0, 0.161680862, 0)
+TextLabel_10.Size = UDim2.new(0, 175, 0, 38)
+TextLabel_10.Font = Enum.Font.Oswald
+TextLabel_10.Text = "Mr Carrot"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextSize = 25.000
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+SunflowerButton_2.Name = "SunflowerButton"
+SunflowerButton_2.Parent = ScrollingFrame
+SunflowerButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SunflowerButton_2.BackgroundTransparency = 0.300
+SunflowerButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SunflowerButton_2.BorderSizePixel = 0
+SunflowerButton_2.Size = UDim2.new(0, 476, 0, 108)
+SunflowerButton_2.Font = Enum.Font.SourceSans
+SunflowerButton_2.Text = ""
+SunflowerButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+SunflowerButton_2.TextSize = 14.000
+
+ImageLabel_11.Parent = SunflowerButton_2
+ImageLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_11.BackgroundTransparency = 1.000
+ImageLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_11.BorderSizePixel = 0
+ImageLabel_11.Position = UDim2.new(0.0411648788, 0, 0.0701288283, 0)
+ImageLabel_11.Size = UDim2.new(0, 92, 0, 91)
+ImageLabel_11.Image = "rbxassetid://108543453887541"
+
+TextLabel_11.Parent = SunflowerButton_2
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.315627784, 0, 0.161680862, 0)
+TextLabel_11.Size = UDim2.new(0, 175, 0, 38)
+TextLabel_11.Font = Enum.Font.Oswald
+TextLabel_11.Text = "Tomatrio"
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextSize = 25.000
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_12.Parent = Frame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(216, 216, 216)
+TextLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Size = UDim2.new(0, 660, 0, 53)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "เลือกเมล็ดที่ต้องการซื้อ"
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextSize = 20.000
+
+TextButton.Parent = TextLabel_12
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 85, 62)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.931818187, 0, 0.188679248, 0)
+TextButton.Size = UDim2.new(0, 33, 0, 33)
+TextButton.Font = Enum.Font.FredokaOne
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 20.000
+
+UIAspectRatioConstraint.Parent = TextButton
+
+UICorner.CornerRadius = UDim.new(0, 30)
+UICorner.Parent = TextButton
+
+Frame1.Name = "Frame1"
+Frame1.Parent = Frame
+Frame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame1.BorderSizePixel = 0
+Frame1.Position = UDim2.new(0.75, 0, 0.156177163, 0)
+Frame1.Size = UDim2.new(0, 153, 0, 350)
+
+TextLabel_13.Parent = Frame1
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Size = UDim2.new(0, 153, 0, 50)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "รายการ"
+TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.TextSize = 25.000
+
+TextButton_2.Parent = Frame1
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0, 0, 0.17428571, 0)
+TextButton_2.Size = UDim2.new(0, 153, 0, 50)
+TextButton_2.Font = Enum.Font.Merriweather
+TextButton_2.Text = "Cactus"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 20.000
+
+ImageLabel_12.Parent = TextButton_2
+ImageLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_12.BackgroundTransparency = 1.000
+ImageLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_12.BorderSizePixel = 0
+ImageLabel_12.Position = UDim2.new(0, 0, 0.0599999987, 0)
+ImageLabel_12.Size = UDim2.new(0, 52, 0, 43)
+ImageLabel_12.Image = "rbxassetid://100140310380921"
+
+-- Scripts:
+
+local function HSMETL_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local Gui = script.Parent.Parent.Parent.Parent.Parent.BuyGui
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		Gui.Enabled = false
+	end)
+end
+coroutine.wrap(HSMETL_fake_script)()
